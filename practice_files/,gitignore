@@ -1,26 +1,18 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-
-# Virtual environments
-.venv/
-venv/
-env/
-DSenv/
-
-# Jupyter
+# Quarto project metadata and temporary files
+.quarto/
+# Default rendered website and book directories
+/_site/
+/_book/
+# Generated supporting assets and execution caches
+# Includes generated CSS, Bootstrap, JavaScript, fonts, and figures.
+*_files/
+*_cache/
+site_libs/
+# Common custom library directory for standalone HTML rendering
+/libs/
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
-
-# macOS
-.DS_Store
-
-# VS Code
-.vscode/
-
-# Environment variables / secrets
-.env
-
-# Temporary files
-*.log
-*.tmp
+# Keep _freeze/ available for version control: Quarto projects may use it
+# to render from saved execution results on other machines.
+# Add explicit paths below for standalone rendered HTML, PDF, or DOCX files
+# and any custom output directory configured in _quarto.yml.
