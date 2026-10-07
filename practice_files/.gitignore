@@ -1,0 +1,126 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+.env
+.env.*
+
+# Python tooling / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+
+# ============================================================
+# macOS / OS junk
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+
+# ============================================================
+# VS Code / IDE
+# ============================================================
+
+.vscode/
+.idea/
+
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+
+# ============================================================
+# Quarto
+# ============================================================
+
+.quarto/
+_freeze/
+_site/
+_book/
+
+# Quarto generated supporting files
+*_files/
+*_cache/
+
+# Knitr/Jupyter generated figure folders
+figure/
+figures/
+*_figure/
+*_figures/
+
+
+# ============================================================
+# Rendered HTML assets
+# ============================================================
+
+# Bootstrap
+bootstrap*.css
+bootstrap*.js
+bootstrap*.min.css
+bootstrap*.min.js
+
+# Generated CSS / JS
+styles.css
+*.min.css
+*.min.js
+
+# Common Quarto HTML dependencies
+quarto-html/
+quarto-nav/
+quarto-search/
+site_libs/
+libs/
+
+# JS libraries commonly generated/copied during rendering
+jquery*.js
+popper*.js
+anchor*.js
+clipboard*.js
+tippy*.js
+
+
+# ============================================================
+# Rendered outputs
+# ============================================================
+
+*.html
+*.htm
+
+# Uncomment these if PDFs/Word docs should also NOT be tracked:
+# *.pdf
+# *.docx
+
+
+# ============================================================
+# Temporary / backup files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
