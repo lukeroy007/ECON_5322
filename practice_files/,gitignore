@@ -1,18 +1,126 @@
-# Quarto project metadata and temporary files
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+.env
+.env.*
+
+# Python tooling / caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+
+# ============================================================
+# macOS / OS junk
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+
+# ============================================================
+# VS Code / IDE
+# ============================================================
+
+.vscode/
+.idea/
+
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+
+# ============================================================
+# Quarto
+# ============================================================
+
 .quarto/
-# Default rendered website and book directories
-/_site/
-/_book/
-# Generated supporting assets and execution caches
-# Includes generated CSS, Bootstrap, JavaScript, fonts, and figures.
+_freeze/
+_site/
+_book/
+
+# Quarto generated supporting files
 *_files/
 *_cache/
+
+# Knitr/Jupyter generated figure folders
+figure/
+figures/
+*_figure/
+*_figures/
+
+
+# ============================================================
+# Rendered HTML assets
+# ============================================================
+
+# Bootstrap
+bootstrap*.css
+bootstrap*.js
+bootstrap*.min.css
+bootstrap*.min.js
+
+# Generated CSS / JS
+styles.css
+*.min.css
+*.min.js
+
+# Common Quarto HTML dependencies
+quarto-html/
+quarto-nav/
+quarto-search/
 site_libs/
-# Common custom library directory for standalone HTML rendering
-/libs/
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
-# Keep _freeze/ available for version control: Quarto projects may use it
-# to render from saved execution results on other machines.
-# Add explicit paths below for standalone rendered HTML, PDF, or DOCX files
-# and any custom output directory configured in _quarto.yml.
+libs/
+
+# JS libraries commonly generated/copied during rendering
+jquery*.js
+popper*.js
+anchor*.js
+clipboard*.js
+tippy*.js
+
+
+# ============================================================
+# Rendered outputs
+# ============================================================
+
+*.html
+*.htm
+
+# Uncomment these if PDFs/Word docs should also NOT be tracked:
+# *.pdf
+# *.docx
+
+
+# ============================================================
+# Temporary / backup files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
